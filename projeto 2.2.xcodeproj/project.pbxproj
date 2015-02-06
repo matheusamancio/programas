@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		DDC832041A83EBDF00EDD264 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC832031A83EBDF00EDD264 /* main.m */; };
+		DDC832121A83EC6B00EDD264 /* PESSOA.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC832111A83EC6B00EDD264 /* PESSOA.m */; };
+		DDC832151A83EC9600EDD264 /* ALUNO.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC832141A83EC9600EDD264 /* ALUNO.m */; };
+		DDC832181A83ECAC00EDD264 /* PROFESSOR.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC832171A83ECAC00EDD264 /* PROFESSOR.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		DDC832001A83EBDF00EDD264 /* projeto 2.2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "projeto 2.2"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDC832031A83EBDF00EDD264 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDC832101A83EC6B00EDD264 /* PESSOA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PESSOA.h; sourceTree = "<group>"; };
+		DDC832111A83EC6B00EDD264 /* PESSOA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PESSOA.m; sourceTree = "<group>"; };
+		DDC832131A83EC9600EDD264 /* ALUNO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALUNO.h; sourceTree = "<group>"; };
+		DDC832141A83EC9600EDD264 /* ALUNO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALUNO.m; sourceTree = "<group>"; };
+		DDC832161A83ECAC00EDD264 /* PROFESSOR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PROFESSOR.h; sourceTree = "<group>"; };
+		DDC832171A83ECAC00EDD264 /* PROFESSOR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PROFESSOR.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +50,12 @@
 		DDC831F71A83EBDF00EDD264 = {
 			isa = PBXGroup;
 			children = (
+				DDC832161A83ECAC00EDD264 /* PROFESSOR.h */,
+				DDC832171A83ECAC00EDD264 /* PROFESSOR.m */,
+				DDC832131A83EC9600EDD264 /* ALUNO.h */,
+				DDC832141A83EC9600EDD264 /* ALUNO.m */,
+				DDC832101A83EC6B00EDD264 /* PESSOA.h */,
+				DDC832111A83EC6B00EDD264 /* PESSOA.m */,
 				DDC832021A83EBDF00EDD264 /* projeto 2.2 */,
 				DDC832011A83EBDF00EDD264 /* Products */,
 			);
@@ -118,6 +133,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDC832151A83EC9600EDD264 /* ALUNO.m in Sources */,
+				DDC832181A83ECAC00EDD264 /* PROFESSOR.m in Sources */,
+				DDC832121A83EC6B00EDD264 /* PESSOA.m in Sources */,
 				DDC832041A83EBDF00EDD264 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
